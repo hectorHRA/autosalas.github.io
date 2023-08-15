@@ -1,0 +1,162 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1, 
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;  
+  }
+  
+  a {
+    color: #0066cc;
+  }
+  
+  
+  /* Header */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  
+  /* Hero */
+  
+  .hero {
+    position: relative;  
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  
+  /* Columnas */
+  
+  .columns {
+    display: flex;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1; 
+    margin: 0 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    .columns {
+      flex-direction: column;
+    }
+    
+    .column {
+      margin: 0 0 1rem 0;
+    }
+  }
+  
+  
+  /* Botones */
+  
+  .button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    animation: spin 1s linear infinite;
+    
+  }
+  
+  
+  /* Barras laterales */
+  
+  aside {
+    padding: 1rem;
+    background-color: #373636;
+    border-radius: 5px;
+  }
+  
+  /* Pie de página */ 
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center; 
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Navegación */
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+    
+    nav a {
+      display: flex;
+      text-align: center;
+    }
+  }
+  
+  .content {
+    width: 90%; 
+    max-width: 960px;
+  }
+  
+  image {
+    float:right;
+  }
+.contenedor_imagenes{
+  text-align: center;
+}  
